@@ -17,7 +17,6 @@ static volatile bool isDacBusy;
 /* Private typedef -----------------------------------------------------------*/
 typedef enum
 {
-  INIT_STATE,
   BUF1_IDLE,
   BUF2_IDLE
 }transmitState_t;
